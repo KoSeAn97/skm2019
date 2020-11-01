@@ -1,0 +1,4 @@
+CXX := mpixlC
+CXXFLAGS := -qstrict
+LDFLAGS :=
+OMPFLAGS := -qsmp=omp

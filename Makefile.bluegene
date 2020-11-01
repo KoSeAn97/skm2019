@@ -1,0 +1,4 @@
+CXX := mpixlcxx_r
+CXXFLAGS := -DBLUEGENE_KLUDGE -qstrict
+LDFLAGS :=
+OMPFLAGS := -qsmp=omp

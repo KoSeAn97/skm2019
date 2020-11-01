@@ -1,0 +1,4 @@
+CXX := clang++
+CXXFLAGS := -I/opt/openmpi-3.0.0/include -std=c++03 -Wall -Werror 
+LDFLAGS := -L/opt/openmpi-3.0.0/lib -lmpi
+OMPFLAGS := -lomp
